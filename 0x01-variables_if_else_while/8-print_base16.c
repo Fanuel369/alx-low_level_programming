@@ -1,22 +1,23 @@
-#include <stdio.h>
+#include <studio.h>
 /**
-  * main
-  * Description: C programming
-  * Return: Always (Success)
-  */
+ *main - entry point
+ *
+ *Description:prints numbers of base16 in lowercase
+ *
+ *Return: Always zero
+ */
 int main(void)
 {
-	char c;
+	int dig, letterhex, n;
 
-	for (c = '0'; c <= '9'; c++)
+	for (dig = 48, n = 0; n < 10; dig++, n++)
 	{
-		putchar(c);
+		putchar(dig);
 	}
-
-	for (c = 'a'; c <= 'f'; c++)
+	for (letterhex = 97, n = 1; n < 7; letterhex++, n++)
 	{
-		putchar(c);
+		putchar(letterhex);
 	}
-	putchar('\n');
+	putchar(10);
 	return (0);
 }
