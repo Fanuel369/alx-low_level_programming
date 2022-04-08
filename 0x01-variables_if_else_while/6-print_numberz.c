@@ -1,6 +1,6 @@
 #include <stdio.h>
 /**
-  * main Description: hdhdh
+  * main Description: youtube
   * Description: programming
   * Return: Always (Success)
   */
@@ -12,7 +12,6 @@ int main(void)
 	{
 		putchar(n);
 	}
-
 	putchar('\n');
 
 	return (0);
