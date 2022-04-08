@@ -1,7 +1,7 @@
 #include <stdio.h>
 /**
-  * main Description: youtube
-  * Description: programming
+  * main - prints numbers from zero
+  *        numbers from start
   * Return: Always (Success)
   */
 int main(void)
@@ -13,6 +13,5 @@ int main(void)
 		putchar(n);
 	}
 	putchar('\n');
-
 	return (0);
 }
