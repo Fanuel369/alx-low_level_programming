@@ -1,8 +1,7 @@
 #include <stdio.h>
-
 /**
   * main 
-  *
+  * Description: C programming
   * Return: Always (Success)
   */
 int main(void)
@@ -15,7 +14,5 @@ int main(void)
 	}
 
 	putchar('\n');
-
 	return (0);
-
 }
