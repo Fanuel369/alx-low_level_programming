@@ -1,5 +1,4 @@
 #include <stdio.h>
-
 /**
   * main - Prints a serie of numbers with commas
   *
@@ -23,6 +22,5 @@ int main(void)
 	putchar('\n');
 
 	return (0);
-
 }
 
