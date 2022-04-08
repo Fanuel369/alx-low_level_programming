@@ -1,7 +1,7 @@
 #include <stdio.h>
 /**
-  * main 
-  * Description: nenk
+  * main - prints numbers
+  *        numbers
   * Return: Always (Success)
   */
 int main(void)
