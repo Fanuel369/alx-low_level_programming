@@ -1,7 +1,7 @@
-#include <studio.h>
+#include <stdio.h>
 /**
- * main - print alphabets in lowercase
- *        lowercase alphabets
+ * main - prints alphabets
+ *        alphabets
  * Return: Always (Success)
  */
 int main(void)
@@ -12,5 +12,5 @@ int main(void)
 		putchar(c);
 
 	putchar('\n');
-        return (0);
+	return (0);
 }
