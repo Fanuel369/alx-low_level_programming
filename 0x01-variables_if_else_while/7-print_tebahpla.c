@@ -1,8 +1,8 @@
 #include <stdio.h>
 /**
-* john
-* john
-* john
+* main
+* prints lowercase alphabets reverse
+* Return: Always (Success)
 */
 int main(void)
 {
