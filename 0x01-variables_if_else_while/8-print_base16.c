@@ -1,5 +1,4 @@
 #include <stdio.h>
-
 /**
   * main
   *
@@ -18,9 +17,6 @@ int main(void)
 	{
 		putchar(c);
 	}
-
 	putchar('\n');
-
 	return (0);
-
 }
