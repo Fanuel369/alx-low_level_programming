@@ -1,8 +1,7 @@
 #include <stdio.h>
-
 /**
   * main 
-  *
+  * Description: nenk
   * Return: Always (Success)
   */
 int main(void)
@@ -17,5 +16,4 @@ int main(void)
 	putchar('\n');
 
 	return (0);
-
 }
