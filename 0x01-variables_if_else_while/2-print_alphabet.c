@@ -1,8 +1,7 @@
 #include <stdio.h>
-
 /**
  * main 
- *
+ *competition
  * Return: Always (Success)
  */
 int main(void)
