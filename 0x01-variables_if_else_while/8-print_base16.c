@@ -1,11 +1,9 @@
-#include <studio.h>
+#include <stdio.h>
 /**
- *main - entry point
- *
- *Description:prints numbers of base16 in lowercase
- *
- *Return: Always zero
- */
+  * main
+  * Description: programming
+  * Return: Always (Success)
+  */
 int main(void)
 {
 	int dig, letterhex, n;
@@ -18,6 +16,6 @@ int main(void)
 	{
 		putchar(letterhex);
 	}
-	putchar(10);
+	putchar(10)
 	return (0);
 }
