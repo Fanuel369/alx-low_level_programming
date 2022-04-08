@@ -1,8 +1,7 @@
-#include <stdio.h>
-
+#include <studio.h>
 /**
-  * main 
-  *
+  * main - prints lowercase alphabets in new line
+  *        alphabets in new line
   * Return: Always (Success)
   */
 int main(void)
@@ -18,7 +17,7 @@ int main(void)
 	}
 
 	putchar('\n');
-
-	return (0);
-
+        return (0);
 }
+
+	
