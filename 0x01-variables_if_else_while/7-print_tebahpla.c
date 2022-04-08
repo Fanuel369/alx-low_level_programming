@@ -9,7 +9,7 @@
 int main(void)
 {
 	int letter, n;
-        for (letter = 122, n = 1; n < 27; letter--, n++)
+for (letter = 122, n = 1; n < 27; letter--, n++)
 	{
 		putchar(letter);
 	}
