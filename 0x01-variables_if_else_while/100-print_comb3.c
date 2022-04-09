@@ -4,7 +4,6 @@
  * main - main block
  *        Write a program that prints all possible
  * Return: Always (Success)
- * Return: 0
  */
 int main(void)
 {
