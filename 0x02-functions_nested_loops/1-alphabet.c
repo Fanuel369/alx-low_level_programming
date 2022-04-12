@@ -1,11 +1,10 @@
-#include "main.h"
+#include "holberton.h"
 
 /**
- * main - check the code
- *
- * Return: Always 0.
+ * print_alphabet - Prints alphabets 'a - z'
  */
-int main(void)
+
+void print_alphabet(void)
 {
 	char c;
 
@@ -14,4 +13,4 @@ int main(void)
 		_putchar(c);
 	}
 	_putchar('\n');
-}
+}[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[B[B[B[B[B[B[B[B[B[B[B[B[B[B[B[B
