@@ -4,26 +4,23 @@
 #include "lists.h"
 
 /**
- * print_list - prints all elements of a list_t list.
+ * print_list - print elements of linkedlist
+ * @h: linked list
  *
- * @h: pointer to struct list_t.
- * Return: the number of nodes
+ * Return: number of nodes
  */
+
 size_t print_list(const list_t *h)
 {
-	const list_t *temp = h;
-	int element_counter = 0;
+	size_t nbr_nodes = 0;
+	const list_t *current = h;
 
-	while (temp != NULL)
+	while (current != NULL)
 	{
-		if (temp->str == NULL)
-		{
-			printf("[%d] %s\n", 0, "(nil)");
-		}
-		else
-			printf("[%d] %s\n", temp->len, temp->str);
-		element_counter++;
-		temp = temp->next;
+		printf("[%d] %s\n", current->len,
+		current->str != NULL ? current->str : "(nil)");
+		current = current->next;
+		nbr_nodes++;
 	}
-	return (element_counter);
+	return (nbr_nodes);
 }
