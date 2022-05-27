@@ -4,22 +4,20 @@
 #include "lists.h"
 
 /**
- * print_listint - print elements of linkedlist
- * @h: head
- * Return: length of a string
+ * print_listint - Prints all the elements of listint_t
+ * @h: Pointer to the head of the list
+ * Return: The number of node
  */
 
 size_t print_listint(const listint_t *h)
 {
-	size_t no_nodes = 0;
+	size_t num_of_nodes = 0;
 
-	const listint_t *currentv = h;
-
-	while (currentv != NULL)
+	while (h)
 	{
-		printf("%i\n", currentv->n);
-		currentv = currentv->next;
-		no_nodes++;
+		printf("%d\n", h->n);
+		h = h->next;
+		num_of_nodes++;
 	}
-	return (no_nodes);
+	return (num_of_nodes);
 }
